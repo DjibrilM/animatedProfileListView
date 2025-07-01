@@ -1,21 +1,27 @@
-# animated_scroll_view
+# 🐦 animated_scroll_view
 
-A new Flutter project.
+A smooth and visually rich **Flutter implementation** of the famous Twitter-style animated profile header.  
+This UI replicates the dynamic collapsing behavior of a Twitter profile page: avatar scaling, background blur, and scroll-based animations.
 
-## Getting Started
+## ✨ Features
 
-This project is a starting point for a Flutter application.
+- Collapsible animated app bar
+- Dynamic blur background on scroll
+- Avatar scaling and fade-out logic
+- Snap-scroll behavior
+- Clean separation of constants (no magic numbers)
+- Fully responsive & customizable
 
-A few resources to get you started if this is your first Flutter project:
+## 📸 Demo
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+[![Watch Demo](https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg)](https://github.com/user-attachments/assets/89f3ae22-08fe-406a-905d-c6ca41e538e3)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# animatedProfileListView
+> 🔗 [Click here to view video demo](https://github.com/user-attachments/assets/89f3ae22-08fe-406a-905d-c6ca41e538e3)
 
+## 🛠️ Getting Started
 
-https://github.com/user-attachments/assets/89f3ae22-08fe-406a-905d-c6ca41e538e3
+Clone the repo and run:
 
+```bash
+flutter pub get
+flutter run
