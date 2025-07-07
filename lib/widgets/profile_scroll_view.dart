@@ -174,8 +174,8 @@ class _ProfileScrollViewState extends State<ProfileScrollView> {
                         ),
                         child: ClipRRect(
                           borderRadius: BorderRadius.circular(1000),
-                          child: Image.network(
-                            "https://static.wikia.nocookie.net/studio-ghibli/images/8/8e/Chihiro_Ogino.jpg/revision/latest/smart/width/250/height/250?cb=20210214130251",
+                          child: Image.asset(
+                            "assets/images/avatar.webp",
                             width: double.infinity,
                             height: double.infinity,
                             fit: BoxFit.cover,
@@ -245,9 +245,10 @@ class _ProfileScrollViewState extends State<ProfileScrollView> {
               clipBehavior: Clip.antiAlias,
               children: [
                 Positioned.fill(
-                  child: Image.network(
-                    "https://creator.nightcafe.studio/jobs/kI4ftYiSO2wz0vT2G994/kI4ftYiSO2wz0vT2G994--1--jemyn.jpg",
+                  child: Image.asset(
+                    "assets/images/background.webp",
                     fit: BoxFit.cover,
+                    alignment: Alignment.bottomCenter,
                     width: double.infinity,
                     height: appBarMaxHeight,
                   ),
@@ -363,8 +364,8 @@ class _ProfileScrollViewState extends State<ProfileScrollView> {
                 ),
                 child: ClipRRect(
                   borderRadius: BorderRadius.circular(1000),
-                  child: Image.network(
-                    "https://static.wikia.nocookie.net/studio-ghibli/images/8/8e/Chihiro_Ogino.jpg/revision/latest/smart/width/250/height/250?cb=20210214130251",
+                  child: Image.asset(
+                    "assets/images/avatar.webp",
                     width: double.infinity,
                     height: double.infinity,
                     fit: BoxFit.cover,

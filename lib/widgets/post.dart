@@ -17,8 +17,7 @@ class Post extends StatelessWidget {
           // Avatar
           CircleAvatar(
             radius: 20,
-            backgroundImage: NetworkImage(
-              'https://static.wikia.nocookie.net/studio-ghibli/images/8/8e/Chihiro_Ogino.jpg',
+            backgroundImage: AssetImage("assets/images/avatar.webp"
             ),
           ),
           const SizedBox(width: 12),
@@ -58,8 +57,8 @@ class Post extends StatelessWidget {
                 // Image attachment
                 ClipRRect(
                   borderRadius: BorderRadius.circular(12),
-                  child: Image.network(
-                    'https://creator.nightcafe.studio/jobs/kI4ftYiSO2wz0vT2G994/kI4ftYiSO2wz0vT2G994--1--jemyn.jpg',
+                  child: Image.asset(
+                    'assets/images/background.webp',
                     width: double.infinity,
                     fit: BoxFit.cover,
                   ),
