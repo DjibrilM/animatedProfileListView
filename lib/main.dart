@@ -1,8 +1,6 @@
 import 'package:animated_scroll_view/screens/home_screen.dart';
 import 'package:flutter/cupertino.dart';
 
-
-
 void main() {
   runApp(const MyCupertinoApp());
 }
